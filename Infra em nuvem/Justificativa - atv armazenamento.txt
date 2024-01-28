@@ -1,0 +1,22 @@
+On-Premise
+Pontos positivos:
+Escolhi a topologia de armazenamento SAN, pois diferente
+do DAS, o aramazenamento não é diretamente atachado
+nos servidores, algo que evita a alta latencia.
+E diferente do NAS, não há sobrecarga em uma rede que
+possívelmente estaria conectada aos clients, aos
+servidores e ao storage.
+Portanto, na topologia SAN há uma rede que conecta
+os clients aos servidores e outra rede que conecta
+os servidores ao storage, garantindo mais segurança
+e escalabilidade.
+Ponto negativo: é mais caro e mais difícil de configurar.
+
+Nuvem:
+Pontos positivos:
+Eu escolhi o S3 como armazenamento pois nele podemos
+armazenar diferentes tipos de objetos, como vídeos
+e imagens, e também obter escalabilidade, usando recursos
+conforme necessário.
+Escolhi também uma ACL que garante acesso ás instâncias
+com protocolos SSH e HTTPS.

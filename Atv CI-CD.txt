@@ -1,0 +1,6 @@
+1. O que voce quer monitorar: Empresa de transmissão e jogos de futebol. Infraestrutura em cloud com alta disponibilidade de serviços, contendo LoadBalancers, provisionamento de mais de uma maquina para cada serviço e segurança.
+2. Como quero monitorar: Analisando os logs das requisições, dashboards com a situação das maquinas e serviços e alarmes.
+3. Quando vc vai monitar: Em dias de jogos, com maior atenção no momento das transmissões.
+4. Onde vc vai monitorar: NOC.
+5. Por que? Para garantir ambiente e backup, sem deixar que as transmissões falhem.
+6. Quem? Analistas de suporte e Devs.
